@@ -9,6 +9,8 @@ const Register = () => {
         <span>HSBC UK</span>
       </div>
       <div className={styles.registerForm}>
+        <input type="text" value="" defaultValue="" />
+        <input type="text" value="" defaultValue="" />
         <input type="email" value="" defaultValue="" />
         <input type="text" value="" defaultValue="" />
         <button>Register</button>

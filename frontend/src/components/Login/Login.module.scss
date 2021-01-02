@@ -1,0 +1,37 @@
+.login {
+  height: 100vh;
+  margin: auto; 
+
+  input {
+    border: 2px solid #ebeff1;
+    border-radius: .4em !important;
+  }
+
+  label {
+    font-size: .8em;
+    font-weight: 500;
+    color: gray;
+    letter-spacing: -.1px;
+  }
+
+  .logo img {
+    width: auto;
+    height: 4em;
+  }
+
+  .logo span {
+    font-size: 2em;
+  }
+
+  .submit {
+    color: #FFF;
+    background-color: #ec3f14;
+    border-radius: .4em;
+    font-weight: 500;
+    transition: .3s ease;
+
+    &:hover {
+      background-color: #cc3b17;
+    }
+  }
+}
